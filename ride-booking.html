@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Ride</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Book a Ride</h1>
+    </header>
+    <diV style="display: flex; justify-content: center;">
+    <section>
+        <form id="ride-form">
+            <label for="pickup">Pickup Location:</label><br>
+            <input type="text" style="width: 580px; height: 20px;" id="pickup" name="pickup" required><br>
+            <label for="destination">Destination:</label> <br>
+            <input type="text" style="width: 580px; height: 20px;" id="destination" name="destination" required><br>
+            <label for="Price-rate">Give appropriate Price to Rider:</label>
+            <input type="number" style="width: 580px; height: 20px;" id="Price-rate"name="Price-rate"><br>
+            <button type="submit" style="padding: 30px; font-size: 20px;">Book ride</button>
+
+        </form>
+        </section>
+    </diV>
+    <hr>
+    <diV style="display: flex; justify-content: center;">
+      <button><img src="bike.jpg" height="200px" width="200px">-BOOK bike</button>
+      <button><img src="taxi.jpg" height="200" width="200px">-BOOK taxi</button>
+      </diV>
+      <hr>
+    
+    
+    
+    <p>Map for way</p>
+    <a href="https://www.google.com/maps/@27.6915066,85.3248784,15z?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D"><img src="map.jpg"></a>
+
+    <script src="app.js"></script>
+    <a href="profile.html"><button style="float: inline-end;">Go to another Page</button></a>
+    
+</body>
+</html>
